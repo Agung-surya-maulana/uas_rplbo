@@ -1,0 +1,100 @@
+body{
+	font-family: sans-serif;
+	background: #ebf9fb;
+	
+}
+ 
+h1{
+    margin-top: 5%;
+	text-align: center;
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	margin: 60px auto;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+.kotak_daftar{
+	width: 400px;
+	background: rgb(213, 213, 216);
+	margin: 60px auto;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 50px 4px #f2f1f5;
+}
+.logo{
+    margin-left: 60px;
+} 
+label{
+	font-size: 11pt;
+}
+ 
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+	color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 30%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.tombol_daftar{
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-left: 150px;
+    width: 100px;
+    height: 50px;
+}
+.daftar{
+        float: right;
+        padding-top: 4%;
+        color: black;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+ 
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
